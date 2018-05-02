@@ -1,10 +1,10 @@
 function quadraticEquation () {
 
-  var a = parseFloat(frm.a.value);
-  var b = parseFloat(frm.b.value);
-  var c = parseFloat(frm.c.value);
+  let a = parseFloat(frm.a.value);
+  let b = parseFloat(frm.b.value);
+  let c = parseFloat(frm.c.value);
 
-  var D, x1, x2;
+  let D, x1, x2;
 
   D = b*b - 4*a*c;
 
